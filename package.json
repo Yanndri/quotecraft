@@ -1,0 +1,9 @@
+{
+  "name": "quotecraft-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Multi-supplier quotation prototype with optional server-side AI extraction",
+  "scripts": {"start": "node server.mjs", "dev": "node server.mjs", "test": "node --test tests/*.test.mjs"},
+  "engines": {"node": ">=20"}
+}

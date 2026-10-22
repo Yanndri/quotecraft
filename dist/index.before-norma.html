@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#6151ce"><meta name="description" content="Describe your requirements, compare local suppliers, and request confirmed quotations."><title>QuoteCraft — Find the right supplier</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="topbar"><a class="brand" href="#"><span class="brandmark">Q</span>QuoteCraft</a><nav aria-label="Main navigation"><button data-view="discover" class="navitem active">Find suppliers</button><button data-view="requests" class="navitem">My requests <span id="request-count" class="count">0</span></button><button data-view="supplier" class="navitem">Supplier desk</button></nav><span class="demo-label">Demo workspace</span></header>
+<div class="notice"><span class="notice-dot"></span> Fictional suppliers and prices. Actions stay in this browser; nothing is sent to real businesses.<button id="reset-demo" class="textbutton">Reset demo</button></div>
+<main id="main"></main><div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="modal"><div class="modalhead"><h2 id="modal-title"></h2><button id="close-modal" class="iconbutton" aria-label="Close dialog">×</button></div><div id="modal-body"></div></dialog>
+<noscript>This prototype requires JavaScript. Run npm start, then open http://localhost:3000.</noscript><script type="module" src="js/app.mjs"></script></body></html>
